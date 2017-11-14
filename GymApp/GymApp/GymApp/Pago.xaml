@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymApp.Pago"
+             Title="Pago"
+             Icon="pago.png">
+    <ScrollView Orientation="Vertical">
+        <StackLayout>
+            <StackLayout  Margin="0,100,0,15" >
+                <Label Text="Fecha de Ultimo Pago" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label Text="12/11/2017" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout  Margin="0,0,0,15">
+                <Label Text="Fecha de Pago Siguiente" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label Text="12/12/2017" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout  Margin="0,0,0,15">
+                <Label Text="Días Restantes" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label Text="30 Días" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

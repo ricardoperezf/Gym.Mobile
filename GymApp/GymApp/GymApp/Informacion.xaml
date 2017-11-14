@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymApp.Informacion"
+             Title="Información"
+             Icon="informacion.png">
+    <ScrollView Orientation="Vertical">
+
+        <StackLayout>
+
+            <StackLayout VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" Margin="10,30,10,20" >
+                <Label Text="Nombre: José Ramirez" FontSize="Large"></Label>
+            </StackLayout>
+
+            <StackLayout  Margin="0,0,0,15">
+                <Label Text="Datos Antropométricos" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <StackLayout Margin="10,10,10,10">
+                    <Label Text="Peso: 20Kg" FontSize="Medium"></Label>
+                    <Label Text="Porcentaje de grasa: 26%" FontSize="Medium"></Label>
+                    <Label Text="Porcentaje de agua: 60%" FontSize="Medium"></Label>
+                    <Label Text="Indice de masa corporal: 36.4%" FontSize="Medium"></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout  Margin="0,0,0,15">
+                <Label Text="Medidas" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <StackLayout Margin="10,10,10,10">
+                    <Label Text="Pecho: 104 cm" FontSize="Medium"></Label>
+                    <Label Text="Espalda: 40 cm" FontSize="Medium"></Label>
+                    <Label Text="Brazo: 44 cm / 44 cm" FontSize="Medium"></Label>
+                    <Label Text="Cintura: 83 cm" FontSize="Medium"></Label>
+                    <Label Text="Abdomen: 98 cm" FontSize="Medium"></Label>
+                    <Label Text="Cadera: 100 cm" FontSize="Medium"></Label>
+                    <Label Text="Muslo: 53 cm / 53 cm" FontSize="Medium"></Label>
+                    <Label Text="Pantorrilla: 40 cm" FontSize="Medium"></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>

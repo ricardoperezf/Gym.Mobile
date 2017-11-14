@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymApp.Rutina"
+             Title="Rutina"
+             Icon="rutina.png">
+    <ScrollView>
+        <StackLayout  HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Button x:Name="btnRutina1"  Text="Rutina 1"></Button>
+            <Button x:Name="btnRutina2"  Text="Rutina 2"></Button>
+            <Button x:Name="btnRutina3"  Text="Rutina 3"></Button>
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>
